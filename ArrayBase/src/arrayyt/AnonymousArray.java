@@ -5,6 +5,7 @@ public class AnonymousArray {
 	public static void main(String[] args) {
 
 		AnonymousArray.sum(new int[] { 10, 20, 30 }); // only one time used than end, no name 1D, 2D, 3D any of them
+		AnonymousArray.sum(new int[] {10,20});
 	}
 
 	static void sum(int[] no) {
